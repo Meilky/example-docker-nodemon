@@ -1,0 +1,19 @@
+{
+  "name": "example-nodemon-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "nodemon --exec \"npm run start\" -w src -e js"
+  },
+  "keywords": [],
+  "author": "Meilky",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
